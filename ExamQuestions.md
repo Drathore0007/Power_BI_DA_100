@@ -13,7 +13,7 @@ Existing Environment -
 Sales Data -
 Litware has online sales data that has the SQL schema shown in the following table.
 
-![alt text](/img/casestudy1_img1.png) 
+![alt text](/img/casestudy1_img1.PNG) 
 
 In the Date table, the date_id column has a format of yyyymmdd and the month column has a format of yyyymm.
 The week column in the Date table and the week_id column in the Weekly_Returns table have a format of yyyyww.
@@ -78,7 +78,7 @@ the Date table.
 
 ## Q.4 You build a report to analyze customer transactions from a database that contains the tables shown in the following table.
 
-![alt text](/img/Q4_img1.png) 
+![alt text](/img/Q4_img1.PNG) 
 
 You import the tables.
 Which relationship should you use to link the tables?
@@ -128,10 +128,10 @@ How should the visual interactions be set on the column chart when the bar chart
 ## Answer B
 
 ## Q.8 You have a dashboard that contains tiles pinned from a single report as shown in the Original Dashboard exhibit. (Click the Original Dashboard tab.)
-![alt text](/img/Q8_img1.png) 
+![alt text](/img/Q8_img1.PNG) 
 You need to modify the dashboard to appear as shown in the Modified Dashboard exhibit. (Click the Modified Dashboard tab.)
 
-![alt text](/img/Q8_img2.png) 
+![alt text](/img/Q8_img2.PNG) 
 
 What should you do?
 
@@ -198,15 +198,15 @@ What should you do?
 ## Answer C
 
 ## Q.12 You have a report page that contains the visuals shown in the following exhibit
-![alt text](/img/Q12_img1.png) 
+![alt text](/img/Q12_img1.PNG) 
 
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 NOTE: Each correct selection is worth one point.
 
-![alt text](/img/Q12_img2.png) 
+![alt text](/img/Q12_img2.PNG) 
 
 ## Answer
-![alt text](/img/Q12_img3.png)
+![alt text](/img/Q12_img3.PNG)
 
 ## Q.13 you have a report that contains four pages. Each page contains slicers for the same four fields.Users report that when they select values in a slicer on one page, the selections are not persisted on other pages.
 
@@ -224,7 +224,7 @@ NOTE: Each correct selection is worth one point.
 ## Answer A,B
 
 ## Q.14 You plan to create the chart shown in the following exhibit.
-![alt text](/img/Q14_img1.png)
+![alt text](/img/Q14_img1.PNG)
 
 How should you create the dashed horizontal line denoting the 40th percentile of daily sales for the period shown?
 
@@ -237,16 +237,16 @@ How should you create the dashed horizontal line denoting the 40th percentile of
 
 ## Q.15 You need to create a visual as shown in the following exhibit.
 
-![alt text](/img/Q15_img1.png)
+![alt text](/img/Q15_img1.PNG)
 The indicator color for Total Sales will be based on % Growth to Last Year.
 The solution must use the existing calculations only.
 How should you configure the visual? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
 Hot Area:
-![alt text](/img/Q15_img2.png)
+![alt text](/img/Q15_img2.PNG)
 
 ## Answer 
-![alt text](/img/Q15_img3.png)
+![alt text](/img/Q15_img3.PNG)
 
 ## Q.16 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this scenario, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 
@@ -322,19 +322,19 @@ D. the X position
 ## Answer A
 
 ## Q.21 You have the Power BI data model shown in the following exhibit.
-![alt text](/img/Q21_img1.png)
+![alt text](/img/Q21_img1.PNG)
 
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 NOTE: Each correct selection is worth one point.
 
-![alt text](/img/Q21_img2.png)
+![alt text](/img/Q21_img2.PNG)
 
 ## Answer
-![alt text](/img/Q21_img3.png)
+![alt text](/img/Q21_img3.PNG)
 
 ## Q.22 You have the line chart shown in the exhibit. (Click the Exhibit tab.)
 
-![alt text](/img/Q22_img1.png)
+![alt text](/img/Q22_img1.PNG)
 
 You need to modify the chart to meet the following requirements:
 
@@ -345,14 +345,14 @@ You need to modify the chart to meet the following requirements:
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 Select and Place:
-![alt text](/img/Q22_img2.png)
+![alt text](/img/Q22_img2.PNG)
 
 ## Answer: 
-![alt text](/img/Q22_img3.png)
+![alt text](/img/Q22_img3.PNG)
 
 ## Q. 23 You have a query named Customer that imports CSV files from a data lake. The query contains 50,000 rows as shown in the exhibit. (Click the Exhibit tab.)
 
-![alt text](/img/Q23_img1.png)
+![alt text](/img/Q23_img1.PNG)
 
 Each file contains deltas of any new or modified rows from each load to the data lake. Multiple files can have the same customer ID.
 
@@ -362,7 +362,7 @@ Which three actions should you perform in sequence?
 To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 Select and Place:
 
-![alt text](/img/Q23_img3.png)
+![alt text](/img/Q23_img3.PNG)
 
 
 ## Q.24 Your company has training videos that are published to Microsoft Stream. You need to surface the videos directly in a Microsoft Power BI dashboard.
@@ -401,11 +401,11 @@ to the manufacturing reports library.
 
 NOTE: Each correct selection is worth one point.
 
-![alt text](/img/Q27_img1.png)
+![alt text](/img/Q27_img1.PNG)
 
 ## Answer
 
-![alt text](/img/Q27_img2.png)
+![alt text](/img/Q27_img2.PNG)
 
 ## Q.28 Your company plans to completely separate development and production assets such as datasets, reports, and dashboards in Microsoft Power Bl.
 
