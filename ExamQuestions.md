@@ -599,7 +599,7 @@ NOTE: Each correct selection is worth one point
 * D. Column quality
 * E. Monospaced
 
-## Answer: A,D
+## Answer: B,C
 
 ## Q.42 You have a Microsoft Power Bl report. The size of PBIX file is 550 MB. The report is accessed by using an App workspace in shared capacity of powerbi.com.
 
@@ -690,7 +690,7 @@ You need to ensure that the users can consume the content on a report page in a 
 * C. the tab order
 * D. the X position
 
-## Answer: B
+## Answer: C
 Refference:  https://docs.microsoft.com/en-us/learn/modules/data-driven-story-power-bi/2-report-layout
 
 
