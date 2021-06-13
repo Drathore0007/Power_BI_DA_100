@@ -460,7 +460,7 @@ one point.
 * C. Publish the reports in an app and grant the HR managers access permission.
 * D. Add the HR managers as members of the existing workspace that hosts the reports and the datasets.
 
-## Answer: D
+## Answer: C
 
 ## Q.31 You have a data model that contains many complex DAX expressions. The expressions contain frequent references to the RELATED and RELATEDTABLE functions. You need to recommend a solution to minimize the use of the RELATED and RELATEDTABLE functions.
 
