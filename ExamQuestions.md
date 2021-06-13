@@ -24,12 +24,12 @@ You are concerned with the quality and completeness of the sales data. You plan 
 Reporting Requirements -
 Litware identifies the following technical requirements:
 Executives require a visual that shows sales by region.
-Regional managers require a visual to analyze weekly sales and returns.
-Sales managers must be able to see the sales data of their respective region only.
-The sales managers require a visual to analyze sales performance versus sales targets.
-The sale department requires reports that contain the number of sales transactions.
-Users must be able to see the month in reports as shown in the following example: Feb 2020.
-The customer service department requires a visual that can be filtered by both sales month and ship month independently.
+### Regional managers require a visual to analyze weekly sales and returns.
+### Sales managers must be able to see the sales data of their respective region only.
+### The sales managers require a visual to analyze sales performance versus sales targets.
+### The sale department requires reports that contain the number of sales transactions.
+### Users must be able to see the month in reports as shown in the following example: Feb 2020.
+### The customer service department requires a visual that can be filtered by both sales month and ship month independently.
 
 You need to review the data for which there are concerns before creating the data model.
 What should you do in Power Query Editor?
@@ -73,6 +73,7 @@ the Date table.
 * D. Tag the user in a comment.
 
 ## Answer: B 
+NOTE: IF A USER WANT TO RECEIVE A NOTIFICATION AFTER CERTIAN SALES PERCENT INCREASE OF DECREASE THEN ANSWER WILL BE  "C. Create a data alert".
 
 ## Q.4 You build a report to analyze customer transactions from a database that contains the tables shown in the following table.
 
@@ -99,7 +100,7 @@ What is the cause of the issue?
 * C The data is deduplicated.
 * D Too many records were sent to the visual.
 
-#  Answer : D
+##  Answer : D
 
 ## Q.6 You have a line chart that shows the number of employees in a department over time.
 
@@ -172,6 +173,13 @@ Does this meet the goal?
 * B. No
 
 ## Answer: B
+
+
+Solution 4: You write a DAX expression that uses the FILTER function.
+Does this meet the goal?
+* A. Yes
+* B. No
+
 
 ## Q.10 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 
@@ -281,8 +289,8 @@ Does this meet the goal?
 Solution 2: You create a median line by using the Salary measure.
 
 Does this meet the goal?
-A. Yes
-B. No
+* A. Yes
+* B. No
 
 ## Answer A
 
@@ -851,3 +859,80 @@ Hot Area:
 ## Answer
 
 ![alt text](./img/Q58_img3.PNG) 
+
+## Q.59 You have the following three versions of an Azure SQL database:
+✑ Test
+✑ Production
+✑ Development
+You have a dataset that uses the development database as a data source.
+You need to configure the dataset so that you can easily change the data source between the development, test, and production database servers from powerbi.com.
+Which should you do?
+
+* A. Create a JSON file that contains the database server names. Import the JSON file to the dataset.
+* B. Create a parameter and update the queries to use the parameter.
+* C. Create a query for each database server and hide the development tables.
+* D. Set the data source privacy level to Organizational and use the ReplaceValue Power Query M function.
+
+## Answer B
+
+## Q.60 you have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
+You need to be able to analyze the complaints by the logged date and use a built-in date hierarchy.
+What should you do?
+* A. Change the data type of the Logged column to Date.
+* B. Apply a transformation to extract the last 11 characters of the Logged column and set the data type of the new column to Date.
+* C. Create a column by example that starts with 2018-12-31 and set the data type of the new column to Date.
+* D. Add a conditional column that outputs 2018 if the Logged column starts with 2018 and set the data type of the new column to Whole Number.
+
+## Answer C
+
+## Q.61 You have a large dataset that contains more than 1 million rows. The table has a datetime column named Date. You need to reduce the size of the data model without losing access to any data.
+
+What should you do?
+* A. Round the hour of the Date column to startOfHour.
+* B. Change the data type of the Date column to Text.
+* C. Trim the Date column.
+* D. Split the Date column into two columns, one that contains only the time and another that contains only the date.
+
+## Answer D
+
+## Q.62 You are modeling data in a table named SalesDetail by using Microsoft Power BI. You need to provide end users with access to the summary statistics about the SalesDetail data. The users require insights on the completeness of the data and the value distributions.
+
+    Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order,
+    Select and Place:
+
+![alt text](./img/Q62_img1.PNG) 
+
+## Answer
+
+![alt text](./img/Q62_img2.PNG) 
+
+## Q.63 You have a Power BI dashboard that monitors the quality of manufacturing processes. The dashboard contains the following elements:
+A line chart that shows the number of defective products manufactured by day.
+
+✑ A KPI visual that shows the current daily percentage of defective products manufactured.
+You need to be notified when the daily percentage of defective products manufactured exceeds 3%.
+What should you create?
+* A. a Q&A visual
+* B. a subscription
+* C. a smart narrative visual
+* D. an alert
+
+# Answer D
+
+## Q.64 You are preparing a financial report in Power BI.
+You connect to the data stored in a Microsoft Excel spreadsheet by using Power Query Editor as shown in the following exhibit.
+
+![alt text](./img/Q64_img1.PNG) 
+You need to prepare the data to support the following:
+✑ Visualizations that include all measures in the data over time
+✑ Year-over-year calculations for all the measures
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+![alt text](./img/Q64_img2.PNG) 
+
+## Answer
+1. Use the first row as headers
+2. Unpivot all the columns other than Measure
+3. Change the column attribute to year
+4. Change the datatype of year to date
