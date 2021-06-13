@@ -432,14 +432,11 @@ You need to recommend an application lifecycle strategy. The solution must minim
 development assets.
 
 What should you recommend?
-* A. Create production reports in a separate workspace that uses a shared dataset from the development workspac
-* B. Grant the end users access to the production workspace.
-* C. In the same workspace, create separate copies of the assets and append DEV to the names of the copied asset
-* D. Grant the end users access to the workspace.
-* E. Create separate workspaces for development and productio
-* F. Grant the end users access to the production workspace.
-* G. Create one workspace for developmen
-* H. From the workspace, publish an app for production.
+
+* A. Create production reports in a separate workspace that uses a shared dataset from the development workspace. Grant the end users access to the production workspace.
+* B. Create one workspace for development. From the new workspace, publish an app for production.
+* C. Create a workspace for development and a workspace for production. From the production workspace, publish an app.
+* D. In one workspace, create separate copies of the assets and append DEV to the names of the copied assets. Grant the end users access to the workspace.
 
 ## Answer: C
 
