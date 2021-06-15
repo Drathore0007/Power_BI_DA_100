@@ -580,7 +580,7 @@ How should you configure the data connection?
 * D. Allow users to add comments to this report.
 * E. Choose the type of data you allow your end users to export.
 
-## Answer: A
+## Answer: E
 
 ## Q.40 You are creating a visual to show the ranking of product categories by sales revenue.Your company's security policy states that you cannot send data outside of your Microsoft Power Bl tenant Which approach provides the widest variety of visuals while adhering to the security policy?
 
@@ -907,7 +907,9 @@ What should you do?
 A line chart that shows the number of defective products manufactured by day.
 
 ✑ A KPI visual that shows the current daily percentage of defective products manufactured.
-You need to be notified when the daily percentage of defective products manufactured exceeds 3%.
+You need to be notified when the daily percentage of defective products 
+manufactured exceeds 3%.
+
 What should you create?
 * A. a Q&A visual
 * B. a subscription
@@ -933,3 +935,5 @@ Select and Place:
 2. Unpivot all the columns other than Measure
 3. Change the column attribute to year
 4. Change the datatype of year to date
+
+## Q.65 
