@@ -989,3 +989,12 @@ Which data modeling design should you use?
 
 ## Answer D
 
+## Q.69 You have a Power BI report.You need to create a calculated table to return the 100 highest spending customers.
+
+How should you complete the DAX expression? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+![alt text](./img/Q69_img1.PNG) 
+
+## Answer
+![alt text](./img/Q69_img2.PNG) 
