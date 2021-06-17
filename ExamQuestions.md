@@ -451,7 +451,7 @@ one point.
 * D. Create a bookmark for each slicer value.
 * E. Replace the slicers with report-level filters.
 
-## Answer: A,B
+## Answer: A,E
 
 ## Q.30  You have a collection of reports for the HR department of your company. The datasets use row-level security (RLS). The company has multiple sales regions that each has an HR manager. You need to ensure that the HR managers can interact with the data from their region only. The HR managers must be prevented from changing the layout of the reports. How should you provision access to the reports for the HR managers?
 
@@ -936,4 +936,56 @@ Select and Place:
 3. Change the column attribute to year
 4. Change the datatype of year to date
 
-## Q.65 
+## Q.65  You have a folder of monthly transaction extracts.You plan to create a report to analyze the transaction data.You receive the following email message: "Hi. I've put 24 files of monthly transaction data onto the shared drive. File Transactions201901.csv throughTransactions201912.csv have the latest set of columns, but files Transactions201801.csv to Transactions201812.csv have an older layout without the extra fieldsneeded for analysis. Each file contains 10 to 50 transactions."You get data from the folder and select Combine & Load. The Combine Files dialog box is shown in the exhibit. (Click the Exhibit tab.)
+
+![alt text](./img/Q65_img1.PNG) 
+
+
+![alt text](./img/Q65_img2.PNG) 
+
+## Answer 
+
+![alt text](./img/Q65_img3.PNG) 
+
+
+## Q.66 You have a Microsoft Power BI data model that contains three tables named Sales, Product, and Date. The Sales table has an existing measure named [Total Sales] that sums the total sales from the Sales table.
+
+You need to write a calculation that returns the percentage of total sales that a selected ProductCategoryName value represents. 
+The calculation must respect any slicers on ProductCategoryName and must show the percentage of visible total sales. 
+For example, if there are four ProductCategoryName values, and a user filters one out, a table showing ProductCategoryName and the calculation must sum up to 100 percent.
+
+How should you complete the calculation? To answer, drag the appropriate values to the correct targets. 
+Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+![alt text](./img/Q66_img1.PNG)
+
+## Answer:
+1. DIVIDE
+2. CALCULATE
+3. ALLSELECTED
+
+
+## Q. 67 You have a query that returns the data shown in the following exhibit.
+![alt text](./img/Q67_img1.PNG) 
+
+Which step should you use in the query?
+* A. =Table.ExpandListColum(Table.TransformColunins(Source, {{"classes".Splitter.SplitTextByDelimiter('','', QuoteStyle.None), let itemType - (type nullable text)
+meta [Serialized.Text = true] in type {itemType}}}), "classes")
+* B. = Table.Unpivot(Source, {"classes"}, "Attribute", "Value")
+* C. = Table.SplitColumn(Source, "classes". Splitter.SplitTextByDelimiterf",", QuoteStyle.None),{"classes.1"})
+* D. = Table.SplitColumn(Source, "classes". Splitter.SplitTextByPositions({10}), {"classes.1"})
+
+## Answer C
+
+
+## Q.68 You have sales data in a star schema that contains four tables named Sales, Customer, Date, and Product. The Sales table contains purchase and ship dates. Most often, you will use the purchase date to analyze the data, but you will analyze the data by both dates independently and together.
+
+You need to design an imported dataset to support the analysis. The solution must minimize the model size and the number of queries against the data source.
+Which data modeling design should you use?
+
+* A. Use the Auto Date/Time functionality in Microsoft Power BI and do NOT import the Date table.
+* B. Duplicate the Date query in Power Query and use active relationships between both Date tables.
+* C. On the Date table, use a reference query in Power Query and create active relationships between Sales and both Date tables in the modeling view.
+* D. Create an active relationship between Sales and Date for the purchase date and an inactive relationship for the ship date
+
+## Answer D
+
