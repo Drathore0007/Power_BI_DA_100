@@ -998,3 +998,91 @@ NOTE: Each correct selection is worth one point.
 
 ## Answer
 ![alt text](./img/Q69_img2.PNG) 
+
+
+## Q.70 Which DAX expression should you use to get the ending balances in the balance sheet reports?
+* A. CALCULATE (SUM( BalanceSheet [BalanceAmount] ), DATESQTD( 'Date'[Date] ))
+* B. CALCULATE (SUM( BalanceSheet [BalanceAmount] ), LASTDATE( 'Date'[Date] ))
+* C. FIRSTNONBLANK ( 'Date' [Date]SUM( BalanceSheet[BalanceAmount] ))
+* D. CALCULATE (MAX( BalanceSheet[BalanceAmount] ), LASTDATE( 'Date' [Date] ))
+
+### Answer B
+
+
+## Q.71 You need to create a calculated column to display the month based on the reporting requirements. Which DAX expression should you use?
+
+* A. FORMAT('Date'[date], "MMM YYYY")
+* B. FORMAT('Date' [date], "M YY")
+* C. FORMAT('Date'[date_id], "MMM") & "" & FORMAT('Date'[year], "#")
+* D. FORMAT('Date' [date_id], "MMM YYYY")
+### Answer: A
+
+
+### Q.72. You need to create relationships to meet the reporting requirements of the customer service department. What should you create?
+
+* A. an additional date table named ShipDate, a one-to-many relationship from Sales[sales_date_id] to Date[date_id], and a one-to-many relationship from
+Sales[sales_ship_date_id] to ShipDate[date_id]
+* B. an additional date table named ShipDate, a many-to-many relationship from Sales[sales_date_id] to Date[date_id], and a many-to-many relationship from
+Sales[sales_ship_date_id] to ShipDate[date_id]
+* C. a one-to-many relationship from Date[date_id] to Sales[sales_date_id] and another one-to-many relationship from Date[date_id] to Weekly_Returns[week_id]
+* D. a one-to-many relationship from Sales[sales_date_id] to Date[date_id] and a one-to-many relationship from Sales[sales_ship_date_id] to Date[date_id]
+* E. a one-to-many relationship from Date[date_id] to Sales[sales_date_id] and another one-to-many relationship from Date[date_id] to Sales[sales_ship_date_id]
+
+### Answer: A
+
+
+### 73 You have a Microsoft Power Bl dashboard. You need to ensure that consumers of the dashboard can give you feedback that will be visible to the other consumers of the dashboard. What should you use?
+* A. Feedback
+* B. Subscribe
+* C. Comments
+* D. Mark as favorite
+
+### Answer C
+
+### Q.74 You have multiple dashboards. You need to ensure that when users browse the available dashboards from powerbi.com, they can see which dashboards contain Personally Identifiable Information (PII). The solution must minimize configuration effort and impact on the dashboard design. What should you use?
+
+* A. comments
+* B. tiles
+* C. Microsoft Information Protection sensitivity labels
+* D. Active Directory groups
+
+### Answer C
+
+### Q.75 You create a dataset sourced from dozens of flat files in Azure Blob storage. The dataset uses incremental refresh. From powerbi.com, you deploy the dataset and several related reports to Microsoft Power BI Premium capacity. You discover that the dataset refresh fails after the refresh runs out of resources. What is a possible cause of the issue?
+
+* A. Query folding is not occurring.
+* B. You selected Only refresh complete periods.
+* C. The data type of the column used to partition the data changed.
+* D. A filter is missing on the report.
+
+### Answer: A
+
+### Explanation Explanation: 
+    The Power BI service partitions data based on date range. This is what enables only certain partitions to be refreshed incrementally. To make this work, the
+    partition filter conditions are pushed down to the source system by including them in the queries. Using Power Query terminology, this is called “query folding”. It
+    is not recommended that incremental refresh is used when the required query folding cannot take place.
+
+
+### Q.76 You have a line chart that shows the number of employees in a department over time. You need to see the total salary costs of the employees when you hover over a data point. What is possible way to achieve this goal?
+* A. Add a salary to the tooltips.
+* B. Add a salary to the visual filters.
+* C. Add salary to the drillthrough fields.
+
+### Answer: A
+
+### Q.76 You build a report to help the sales team understand its performance and the drivers of sales. The team needs to have a single visualization to identify which factors affect success. Which type of visualization should you use?
+* A. Key influences
+* B. Funnel chart
+* C. Q&A
+* D. Line and clustered column chart
+
+### Answer: A
+
+### Explanation: 
+    The key influencers visual helps you understand the factors that drive a metric you're interested in. It analyzes your data, ranks the factors that matter, and
+    displays them as key influencers.
+    The key influencers visual is a great choice if you want to:
+    See which factors affect the metric being analyzed.
+    Contrast the relative importance of these factors. For example, do short-term contracts have more impact on churn than long-term contracts?
+
+    
